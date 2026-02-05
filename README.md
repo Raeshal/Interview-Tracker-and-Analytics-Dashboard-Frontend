@@ -57,3 +57,26 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+## Features
+
+Version 1 (MVP)
+
+✔ Add Interview
+✔ View Interview List
+✔ Update Status
+✔ Delete Entry
+
+## DB
+
+CREATE TABLE interview (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    company_name VARCHAR(100),
+    interview_date DATE,
+    round1_status VARCHAR(50),
+    round2_status VARCHAR(50),
+    round3_status VARCHAR(50),
+    hr_status VARCHAR(50),
+    overall_status VARCHAR(50),
+    learnings TEXT
+);
